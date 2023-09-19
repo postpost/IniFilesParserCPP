@@ -62,7 +62,6 @@ void ini_parser::read_section(std::string section, std::ifstream& fileIn) {
 							return (c == ' ');
 						}
 					), section.end());
-					std::cout << line << std::endl;
 					std::map<std::string, std::string> mss; //to store KeyValue pair
 					std::stringstream stream(section);
 					std::string chunk;
