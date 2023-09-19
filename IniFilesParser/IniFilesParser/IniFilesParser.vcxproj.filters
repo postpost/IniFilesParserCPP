@@ -29,5 +29,8 @@
     <ClInclude Include="ini_parser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="file_errors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
