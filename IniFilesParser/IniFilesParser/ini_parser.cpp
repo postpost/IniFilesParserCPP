@@ -143,7 +143,7 @@ std::string ini_parser::find_value(std::multimap<char, std::map<std::string, std
 			std::cout << el << ", ";
 		return "";
 	}
-	else {
+	else if (list.empty() && list_2.empty()) {
 		std::cout << "Секция пустая\n";
 		return "";
 	}

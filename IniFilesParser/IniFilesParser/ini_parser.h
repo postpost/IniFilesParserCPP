@@ -23,6 +23,7 @@ public:
 
 	void read_section(std::string section, std::ifstream& fileIn);
 	std::string find_value(std::multimap<char, std::map<std::string, std::string>>& my_map, std::string section_num, std::string key);
+	
 	//get_value
 	template<class T>
 	T get_value (std::string value) {
@@ -42,6 +43,4 @@ public:
 	}
 
 	static void print_map(const auto& mcss);
-
-	
 };

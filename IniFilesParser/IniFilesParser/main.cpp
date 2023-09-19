@@ -8,7 +8,7 @@ int main() {
 	setlocale(LC_ALL, "ru");
 	std::string fileName = "config.ini";
 	ini_parser parser(fileName);
-	std::string value = "4.var3";
+	std::string value = "1.var2";
 	auto pr = parser.get_value<std::string>(value);
 	std::cout << pr << std::endl;
 	return 0;
